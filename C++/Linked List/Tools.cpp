@@ -1,5 +1,6 @@
 // Jim Hester
 // Some usefull tools
+// Tools were supplied by Professor Hester.
 
 #include"tools.h"
 

@@ -1,3 +1,7 @@
+// Main.cpp
+// Armando Fernandez.
+// The purpose of this program was to create linked list. HW assignment.
+
 #include"LinkedList.h"
 #include"Tools.h"
 using namespace tools;

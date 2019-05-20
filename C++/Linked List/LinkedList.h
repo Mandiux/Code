@@ -1,4 +1,5 @@
 // LinkedList.h
+// Armando Fernandez
 
 #include<string>
 using namespace std;

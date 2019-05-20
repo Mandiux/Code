@@ -1,5 +1,6 @@
 // Jim Hester
 // Some usefull tools
+// Tools were supplied by professor Hester.
 
 #include<string>
 #include<fstream>

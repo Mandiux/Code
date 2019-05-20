@@ -1,4 +1,5 @@
 // LinkedList.cpp
+// Armando Fernandez
 
 #include"LinkedList.h"
 
