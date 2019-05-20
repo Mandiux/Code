@@ -1,0 +1,28 @@
+﻿@using ChuckNorrisApi.Models
+@model Chuck
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+
+@using (Html.BeginForm())
+{
+    <div style="background-color:black;border-radius:5px;">
+        <div class="container" style="padding:17px;">
+            <img src="~/Content/chuck.jpg" class="animated pulse"style="border-radius:50%;height:175px;float:left;margin:10px;" />
+            <h1 class="animated fadeIn"style="font-family: 'VT323', monospace;color:white;">"@Model.chuckJoke"</h1>
+        </div>
+    </div>
+    @Html.DropDownListFor(model => model.defaultCategory, new SelectList(Model.categoryList), "Any Category")
+    <input type="submit" class="btn btn-primary btn-lg" value="Chuck it!" />
+}
+
+
+
+
+
+
